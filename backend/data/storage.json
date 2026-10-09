@@ -1,0 +1,288 @@
+{
+  "users": [
+    {
+      "name": "Admin Supervisor",
+      "email": "admin@treetracker.org",
+      "password": "$2a$08$qBUkNdo7gZF7CYH9l1tROuBeYMxmX3cwVdtQLSdGhXvjke8.tNMYS",
+      "role": "admin",
+      "organization": "Global Urban Forestry Dept",
+      "phone": "+91 98765 00001",
+      "_id": "user_1791561997327_0",
+      "createdAt": "2026-10-09T16:06:37.353Z",
+      "updatedAt": "2026-10-09T16:06:37.354Z"
+    },
+    {
+      "name": "Green Planter",
+      "email": "planter@treetracker.org",
+      "password": "$2a$08$ye1bYaIrNegB1tYafODgV.uUisY7R6w2mgtUAtsV0o3T9dl8lmDWu",
+      "role": "planter",
+      "organization": "City Green Hands NGO",
+      "phone": "+91 98765 00002",
+      "_id": "user_1791561997354_1",
+      "createdAt": "2026-10-09T16:06:37.371Z",
+      "updatedAt": "2026-10-09T16:06:37.371Z"
+    },
+    {
+      "name": "Aarav Patel",
+      "email": "aarav@treetracker.org",
+      "password": "$2a$08$f5.pPnpl9zxnfa80KXf7g.GzXaE4rZd5P.q4adFkkcKWdGJ8hXpYG",
+      "role": "volunteer",
+      "organization": "Eco Youth Circle",
+      "phone": "+91 98765 00003",
+      "_id": "user_1791561997371_2",
+      "createdAt": "2026-10-09T16:06:37.387Z",
+      "updatedAt": "2026-10-09T16:06:37.387Z"
+    }
+  ],
+  "trees": [
+    {
+      "treeSpecies": "Azadirachta indica",
+      "commonName": "Neem Tree",
+      "location": {
+        "name": "Indira Park Botanical Sector",
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "latitude": 17.4126,
+        "longitude": 78.4878
+      },
+      "plantedDate": "2026-01-15T10:00:00.000Z",
+      "person": {
+        "name": "Nithin Reddy",
+        "email": "nithin.planter@earth.org",
+        "phone": "+91 98480 12345",
+        "organization": "Green Hyderabad Mission"
+      },
+      "status": "Healthy",
+      "heightCm": 145,
+      "healthNotes": "Fenced with protective bamboo guard. Organic neem compost applied last week. Vigorous leaf growth.",
+      "imageUrl": "https://images.unsplash.com/photo-1542273917363-3b1817f69a2d?auto=format&fit=crop&w=800&q=80",
+      "lastInspectedDate": "2026-10-01T09:30:00.000Z",
+      "tags": [
+        "Medicinal",
+        "Native",
+        "Drought Resistant",
+        "Air Purifier"
+      ],
+      "_id": "tree_1791561997387_0",
+      "createdAt": "2026-10-09T16:06:37.387Z",
+      "updatedAt": "2026-10-09T16:06:37.387Z"
+    },
+    {
+      "treeSpecies": "Ficus religiosa",
+      "commonName": "Sacred Fig (Peepal)",
+      "location": {
+        "name": "KBR National Park Trail 3",
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "latitude": 17.4265,
+        "longitude": 78.4218
+      },
+      "plantedDate": "2025-11-20T08:30:00.000Z",
+      "person": {
+        "name": "Aarav Patel",
+        "email": "aarav@treetracker.org",
+        "phone": "+91 98765 00003",
+        "organization": "Eco Youth Circle"
+      },
+      "status": "Growing",
+      "heightCm": 210,
+      "healthNotes": "Canopy is branching out nicely. Deep root system establishing well.",
+      "imageUrl": "https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=800&q=80",
+      "lastInspectedDate": "2026-09-28T14:15:00.000Z",
+      "tags": [
+        "Sacred Grove",
+        "High Oxygen",
+        "Long Lived"
+      ],
+      "_id": "tree_1791561997387_1",
+      "createdAt": "2026-10-09T16:06:37.387Z",
+      "updatedAt": "2026-10-09T16:06:37.387Z"
+    },
+    {
+      "treeSpecies": "Delonix regia",
+      "commonName": "Gulmohar (Flame Tree)",
+      "location": {
+        "name": "Outer Ring Road Green Belt, Gachibowli",
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "latitude": 17.4401,
+        "longitude": 78.3489
+      },
+      "plantedDate": "2026-02-10T11:00:00.000Z",
+      "person": {
+        "name": "Priya Sharma",
+        "email": "priya.green@ecowarriors.in",
+        "phone": "+91 99123 45678",
+        "organization": "Green Corridor Drive"
+      },
+      "status": "Healthy",
+      "heightCm": 160,
+      "healthNotes": "Beautiful scarlet foliage budding. Drip irrigation line functioning properly.",
+      "imageUrl": "https://images.unsplash.com/photo-1502082553048-f009c37129b9?auto=format&fit=crop&w=800&q=80",
+      "lastInspectedDate": "2026-10-05T16:00:00.000Z",
+      "tags": [
+        "Avenue Tree",
+        "Flowering",
+        "Shade Provider"
+      ],
+      "_id": "tree_1791561997387_2",
+      "createdAt": "2026-10-09T16:06:37.387Z",
+      "updatedAt": "2026-10-09T16:06:37.387Z"
+    },
+    {
+      "treeSpecies": "Mangifera indica",
+      "commonName": "Alphonso Mango",
+      "location": {
+        "name": "Vidyaranya Model School Grounds",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "latitude": 12.9716,
+        "longitude": 77.5946
+      },
+      "plantedDate": "2026-06-05T09:00:00.000Z",
+      "person": {
+        "name": "Rohan Mehra",
+        "email": "rohan.m@bengalurugreens.org",
+        "phone": "+91 97401 23456",
+        "organization": "School Eco Club"
+      },
+      "status": "Planted",
+      "heightCm": 65,
+      "healthNotes": "Planted on World Environment Day with student participation. Mulched with straw.",
+      "imageUrl": "https://images.unsplash.com/photo-1596755094514-f87e34085b2c?auto=format&fit=crop&w=800&q=80",
+      "lastInspectedDate": "2026-09-15T11:00:00.000Z",
+      "tags": [
+        "Fruit Bearing",
+        "Biodiversity",
+        "Community Planted"
+      ],
+      "_id": "tree_1791561997387_3",
+      "createdAt": "2026-10-09T16:06:37.387Z",
+      "updatedAt": "2026-10-09T16:06:37.387Z"
+    },
+    {
+      "treeSpecies": "Ficus benghalensis",
+      "commonName": "Banyan Tree",
+      "location": {
+        "name": "Osmania University Campus, Arts Lawn",
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "latitude": 17.4194,
+        "longitude": 78.5283
+      },
+      "plantedDate": "2025-08-15T07:45:00.000Z",
+      "person": {
+        "name": "Dr. K. Srinivas",
+        "email": "srinivas.botany@ou.ac.in",
+        "phone": "+91 94400 11223",
+        "organization": "OU Botanical Society"
+      },
+      "status": "Growing",
+      "heightCm": 290,
+      "healthNotes": "Aerial prop roots starting to form. Excellent canopy width. Soil pH 6.8.",
+      "imageUrl": "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=800&q=80",
+      "lastInspectedDate": "2026-10-02T10:30:00.000Z",
+      "tags": [
+        "Keystone Species",
+        "National Tree",
+        "Shelter Canopy"
+      ],
+      "_id": "tree_1791561997387_4",
+      "createdAt": "2026-10-09T16:06:37.387Z",
+      "updatedAt": "2026-10-09T16:06:37.387Z"
+    },
+    {
+      "treeSpecies": "Tectona grandis",
+      "commonName": "Teak Wood",
+      "location": {
+        "name": "Jubilee Hills Community Forest Zone",
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "latitude": 17.4319,
+        "longitude": 78.4073
+      },
+      "plantedDate": "2026-03-22T09:15:00.000Z",
+      "person": {
+        "name": "Kavita Das",
+        "email": "kavita@greentrust.org",
+        "phone": "+91 98200 45678",
+        "organization": "Urban Reforestation Trust"
+      },
+      "status": "Needs Attention",
+      "heightCm": 110,
+      "healthNotes": "Minor pest attack on lower leaves noticed during inspection. Needs mild neem oil spray treatment.",
+      "imageUrl": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=800&q=80",
+      "lastInspectedDate": "2026-10-07T15:00:00.000Z",
+      "tags": [
+        "Timber Species",
+        "Forest Restoration",
+        "High Biomass"
+      ],
+      "_id": "tree_1791561997387_5",
+      "createdAt": "2026-10-09T16:06:37.387Z",
+      "updatedAt": "2026-10-09T16:06:37.387Z"
+    },
+    {
+      "treeSpecies": "Spathodea campanulata",
+      "commonName": "African Tulip Tree",
+      "location": {
+        "name": "Cubbon Park North Gate",
+        "city": "Bengaluru",
+        "state": "Karnataka",
+        "latitude": 12.9779,
+        "longitude": 77.5952
+      },
+      "plantedDate": "2026-04-12T10:30:00.000Z",
+      "person": {
+        "name": "Green Planter",
+        "email": "planter@treetracker.org",
+        "phone": "+91 98765 00002",
+        "organization": "City Green Hands NGO"
+      },
+      "status": "Healthy",
+      "heightCm": 180,
+      "healthNotes": "Vibrant bell-shaped orange-red blossoms. Attracting hummingbirds and honeybees.",
+      "imageUrl": "https://images.unsplash.com/photo-1426604966848-d7adac402bff?auto=format&fit=crop&w=800&q=80",
+      "lastInspectedDate": "2026-10-08T08:00:00.000Z",
+      "tags": [
+        "Pollinator Friendly",
+        "Urban Ornament",
+        "Fast Growing"
+      ],
+      "_id": "tree_1791561997387_6",
+      "createdAt": "2026-10-09T16:06:37.387Z",
+      "updatedAt": "2026-10-09T16:06:37.387Z"
+    },
+    {
+      "treeSpecies": "Pongamia pinnata",
+      "commonName": "Indian Beech (Karanja)",
+      "location": {
+        "name": "Hussain Sagar Lakefront Walkway",
+        "city": "Hyderabad",
+        "state": "Telangana",
+        "latitude": 17.4239,
+        "longitude": 78.4738
+      },
+      "plantedDate": "2025-10-10T08:00:00.000Z",
+      "person": {
+        "name": "Nithin Reddy",
+        "email": "nithin.planter@earth.org",
+        "phone": "+91 98480 12345",
+        "organization": "Green Hyderabad Mission"
+      },
+      "status": "Healthy",
+      "heightCm": 225,
+      "healthNotes": "Provides excellent nitrogen fixation for surrounding lakeshore soil. Dense canopy.",
+      "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
+      "lastInspectedDate": "2026-10-04T17:30:00.000Z",
+      "tags": [
+        "Soil Enricher",
+        "Waterfront Friendly",
+        "Bio-diesel Source"
+      ],
+      "_id": "tree_1791561997387_7",
+      "createdAt": "2026-10-09T16:06:37.387Z",
+      "updatedAt": "2026-10-09T16:06:37.387Z"
+    }
+  ]
+}

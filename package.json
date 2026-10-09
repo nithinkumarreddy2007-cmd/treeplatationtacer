@@ -1,0 +1,21 @@
+{
+  "name": "tree-plantation-tracker",
+  "version": "1.0.0",
+  "description": "Full-stack MERN Tree Plantation Tracker application",
+  "scripts": {
+    "backend": "cd backend && npm run dev",
+    "frontend": "cd frontend && npm run dev",
+    "start": "cd backend && npm start"
+  },
+  "keywords": [
+    "mern",
+    "mongodb",
+    "express",
+    "react",
+    "nodejs",
+    "tree-tracker",
+    "environmental"
+  ],
+  "author": "",
+  "license": "ISC"
+}
